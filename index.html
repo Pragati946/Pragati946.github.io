@@ -4,9 +4,91 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/css/glide.core.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./index.css">
+    <link rel="icon" type="image/png" href="./images/COLOR_POP_2.jpg"/>
+    <script
+    src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"></script>
+  <link rel="stylesheet"
+    href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css" />
+    <!-- <link rel="icon" type="image/png" href="https://example.com/favicon.png"/> -->
+    <title>Pragati Tiwari</title>
 </head>
 <body>
-    Hello
+    <header class="header" id="home">
+        <nav class="navbar">
+            <div class="navContainer">
+                <a href="#" class="logo">
+                    <p style="font-size: 25px;"> Pragati Tiwari </p>
+                </a>
+                <div class="menu">
+                    <div class="top-nav">
+                        <a href="#" class="logo">
+                            <p> Pragati Tiwari </p>
+                        </a>
+                        <div class="close">
+                            <i class="fas fa-times"></i>
+                        </div>
+                    </div>
+                    <ul class="nav-list">
+                        <li class="nav-item">
+                            <a href="#home" class="nav-link" id="navHome" style="font-size: 25px">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#about" class="nav-link" id="navAbout" style="font-size: 25px">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#skills" class="nav-link" id="navSkills" style="font-size: 25px">Skills</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#projects" class="nav-link" id="navProject" style="font-size: 25px">Projects</a>
+                        </li>
+                        <!-- <li class="nav-item">
+                            <a href="#github" class="nav-link" id="navGithub">Github</a>
+                        </li> -->
+                        <li class="nav-item">
+                            <a href="#contact" class="nav-link" id="navContact" style="font-size: 25px">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="hamburger">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+        </nav>
+        <div class="wrapper"  id="bd" style="margin-left: 6%; margin-right: 6%; height: 600px;"  >
+            <div class="detailsLeft">
+                <div class="hero">
+                    <h4>WELCOME TO MY PORTFOLIO. I'M</h4>
+                    <h1 style="font-size: 45px;">Pragati Tiwari </h1>
+                    <h1></h1>
+                    <h3><i class="fas fa-play"></i> <span id="type1"></span></h3>
+                    <a target="_blank" rel="noopener noreferrer" href="https://drive.google.com/file/d/1Kk5GCVWh6_y1IF3EygJTr_rydepTEa8a/view" class="btn">
+                        Resume
+                    </a>
+                </div>
+                <div style="margin-left: 6%;" class="icons">
+                    <span><a  target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/pragati-tiwari-734a451a6/"><i class="fab fa-linkedin"></i></a></span>
+                    <span><a target="_blank" rel="noopener noreferrer" href="https://github.com/Pragati946"><i class="fab fa-github"></i></a></span>
+                </div>
+            </div>
+            <div class="imgRight" >
+                <img class="banner" src="https://media-exp1.licdn.com/dms/image/C4D03AQEH5ZaKCdg4JQ/profile-displayphoto-shrink_100_100/0/1652277771819?e=1671062400&v=beta&t=i89lTaaeqZyNIyadnhPzudRhiMGtzhROR6lgbSzU1X4" alt=""/>
+            </div>
+        </div>
+    </header>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/glide.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typeit/7.0.4/typeit.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+    <script src="./index.js"></script>
+    <script>
+        GitHubCalendar(".calendar", "Pragati946");
+        // or enable responsive functionality
+        GitHubCalendar(".calendar", "Pragati946", { responsive: true });
+      </script>
 </body>
 </html>
