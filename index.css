@@ -82,7 +82,7 @@ li {
 .banner {
     height:500px;
     width: 400px;
-    /* border-radius: 50%; */
+    border-radius: 50%;
     margin-top: 70px;
     margin-bottom: 2%px;
 }
@@ -262,14 +262,13 @@ li {
 }
 @media only screen and (max-width: 900px){
     .banner{
-        width: 220px;
+        width: 500px;
         height:220px;
         margin-top: 300px;
         justify-content: center;
+        border-radius: 50%;
     }
-    /* .header{
-        height: 110vh;
-    } */
+
 }
 @media only screen and (max-width: 700px){
     .banner{
@@ -277,6 +276,7 @@ li {
         height: 260px;
         margin-top: 220px;
         justify-content: center;
+        border-radius: 50%;
     }
     /* .header{
         height: 110vh;
@@ -469,9 +469,7 @@ a.btn:active{
     /* height: auto; */
     
 }
-.project_btn{
-    /* margin-bottom: 1rem */
-}
+
 .project_description{
  height: 8rem;
  text-align: center;
