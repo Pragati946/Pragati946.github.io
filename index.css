@@ -559,6 +559,7 @@ a.btn:active{
     .skillImgs{
         justify-content: center;
     }
+    
 }
 @media only screen and (max-width: 590px){
     .skills-center{
@@ -569,6 +570,11 @@ a.btn:active{
     .skills-center > * {
         text-align: center;
     }
+    .left img {
+        height: 40rem;
+        max-width: 90%;
+    }
+
 }
 .skillImgs{
     display: flex;
@@ -600,7 +606,9 @@ footer {
         flex-direction: column;
         width: 70%;
         margin: auto;
+      
     }
+  
 }
 footer p{
     color:  #fff;
