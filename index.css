@@ -36,6 +36,7 @@ li {
 @media only screen and (max-width: 1200px){
     .container{
         padding: 0 3rem;
+       
     }
 }
 
@@ -78,14 +79,20 @@ li {
     justify-content: space-between;
 }
 .banner {
-    height:500px;
-    width: 500px;
+    height:350px;
+    width: 400px;
     border-radius: 50%;
     margin-top: 70px;
     margin-bottom: 2%px;
+    /* border: 5px solid green; */
 }
 .dev {
-    height: 400px;
+    
+    height: 200px;
+    margin-top: -90px;
+    /* margin-bottom: 100px; */
+    /* border: 5px solid purple; */
+   
 }
 .wrapper {
     display: flex;
@@ -260,12 +267,46 @@ li {
 }
 @media only screen and (max-width: 900px){
     .banner{
-      width: 380px;
-        height:380px;
+      width: 420px;
+        height:420px;
         margin-top: 150px;
         justify-content: center;
         border-radius: 50%;
+        /* border: 15px solid green; */
     }
+    .img_g{
+        border-radius: 10px;
+         height: 250px;
+        width:100%;
+        
+    
+    }
+    .img_box{
+        /* border: 5px solid green; */
+        width: 50%;
+        height: 250px;
+         margin-left: 40px;
+        margin-right: 20px;
+        padding-top: 40px;
+        margin-bottom: -10%;
+    }
+    /* .div_des{
+        text-align: left;
+        padding-top: -30%;
+        margin-right: 30px;
+        border: 5px solid green;
+        width: 40%;
+        height: 300px;
+    
+    } */
+
+    
+.project_description{
+    /* height: 8rem; */
+    margin-top: 10px;
+    text-align: left;
+   
+   }
 
 }
 @media only screen and (max-width: 700px){
@@ -294,10 +335,40 @@ li {
     .banner{
         width: 200px; 
         height: 180px;
-        margin-top: 200px;
+        /* margin-top: -60%; */
+        margin-left: -100%;
+        margin-top: -8%;
         justify-content: center; 
         border-radius: 50%;
+        /* border: 5px solid green; */
     }
+    .hero{
+        /* position: absolute; */
+        margin-top: 120px;
+        transform: translate(25%, -50%);
+        color: #fff;
+        margin-left: -15%;
+    }
+    .stk>p>img{
+        width:100%;
+        height: 100px;
+        gap:10px;
+        /* border: 5px solid green; */
+        border: 1px solid white
+    }
+    .stk{
+        display: flex;
+        height: 200px;
+        width:90%;
+        margin: auto;
+        justify-content: center;
+        margin-top: 20px;
+       
+        /* gap:20px */
+        
+        
+    }
+ 
 }
 .icons {
     position: absolute;
@@ -463,8 +534,9 @@ a.btn:active{
 }
 
 .project_description{
- height: 8rem;
- text-align: center;
+ /* height: 8rem; */
+ text-align: left;
+
 }
 @media only screen and (max-width: 380px){
     .project{
@@ -544,6 +616,7 @@ a.btn:active{
         width: 50%;
         margin: auto;
         justify-content: center;
+        /* color:yellow */
     }
     .skills-center > * {
         text-align: center;
@@ -551,7 +624,54 @@ a.btn:active{
     .skillImgs{
         justify-content: center;
     }
-    
+    .project_in{
+        flex-direction: column;
+        /* gap: 20px; */
+        /* margin-bottom: -20px; */
+        /* border:5px solid orange; */
+        height: 600px;
+        border-radius: 2px solid wheat;
+        background-color: #000;
+       
+        /* border-radius: 10px solid #000; */
+    }
+    .div_project{
+        width:100%;
+        border-radius: 10px;
+        height: 1730px;
+        
+
+    }
+    /* .div_des{
+        border: 5px solid purple
+        
+       
+    } */
+    .img_g{
+        width: 80%;
+        height: 200px;
+        margin-top: -50px;
+        margin-bottom: -100px;
+        margin-right: 20px;
+    }
+   
+   
+    .project_description{
+        display:grid;
+        /* border: 3px solid chocolate; */
+        margin-left: 40px;
+        background-color: #000;
+       }
+       .brand{
+        margin-left: 40px;
+       }
+       /* .tec{
+        margin-left: 40px;
+        margin-bottom: 8px;
+       } */
+       /* .tec_btn{
+        margin-left: 40px;
+       } */
 }
 @media only screen and (max-width: 590px){
     .skills-center{
@@ -609,3 +729,140 @@ footer p span{
     color: #dd9a05;
 }
 
+ @media only screen and (max-width: 280px){
+    .project{
+        width:90%;
+        
+    }
+ .project .img-cover {
+    overflow: hidden;
+    border-radius: 2%;
+    border: 1px solid #dd9a05;
+    height: 20rem;
+    width: 20rem;
+    margin: 2px auto;
+    transition: all 300ms ease-in-out;
+
+}
+.banner {
+
+    height:125px;
+    width: 125px;
+    border-radius: 50%;
+    margin-top: 300px;
+    margin-top: 2%px;
+    margin-bottom: 2%px;
+    margin-left: -240px;
+
+}
+
+.project_description{
+    height: 12rem;
+    /* margin-bottom: 50px; */
+    text-align: left;
+   }
+
+   .projBtns {
+    margin-right: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.project{
+    margin-bottom: 40px;
+    height: 53rem; 
+    
+    
+ } 
+
+} 
+
+.stk{
+    display: flex;
+    height: 200px;
+    /* width:100%; */
+    margin: auto;
+    justify-content: center;
+    margin-top: 20px;
+    /* gap:20px */
+    
+    
+}
+.stk>p>img{
+    width:100%;
+    height: 100px;
+    gap:10px;
+    border: 1px solid white
+
+
+}
+
+.project_in{
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+    background-color: #000;
+    /* border: 5px solid blue; */
+
+}
+.div_project{
+    margin: auto;
+    width:80%;
+    /* border: 5px solid blue; */
+    border-radius: 10px;
+   
+}
+a>img{
+    border-radius: 10px;
+    /* margin-left: 40px; */
+    /* margin-right: 20px; */
+    /* margin-top: 30px; */
+    /* margin-bottom: 20px; */
+     height: 300px;
+    width:90%;
+    /* border: 5px solid blue; */
+
+
+}
+.img_box{
+    /* border: 5px solid green; */
+    width: 100%;
+    height: 300px;
+     margin-left: 40px;
+    margin-right: 20px;
+    margin-top: 30px;
+    margin-bottom: 80px;
+}
+/* .div_des{
+    text-align: left;
+    margin-top: 80px;
+    margin-right: 30px;
+    
+    width: 40%;
+    height: 300px;
+
+} */
+.project_description{
+    margin-left: 40px;
+    text-align: left;
+    margin-right: 30px;
+   
+    
+   }
+   .brand{
+    margin-left: 40px;
+    text-align: left;
+    margin-top: 70px;
+    /* margin-right: 30px; */
+   }
+   .tec{
+    margin-left: 40px;
+    margin-bottom: 8px;
+    text-align: left;
+    margin-right: 30px;
+   
+   }
+   .tec_btn{
+    margin-bottom: 40px;
+    margin-left: 40px;
+   }

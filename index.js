@@ -9,10 +9,6 @@ const about = document.getElementById("navAbout")
 const project = document.getElementById("navProject")
 const github = document.getElementById("navGithub")
 const contact = document.getElementById("navContact")
-
-
-
-
 const bd = document.getElementById("bd")
 const bd2 = document.getElementById("bd2")
 
@@ -39,7 +35,7 @@ window.addEventListener('scroll', () => {
   }else {
     skills.classList.remove("highlight")
   }
-  //project
+  // //project
   if(window.pageYOffset >=1871 && window.pageYOffset <= 2519){
     project.classList.add("highlight")
   }else {
